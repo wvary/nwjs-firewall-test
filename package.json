@@ -3,13 +3,17 @@
   "version": "1.0.0",
   "description": "",
   "main": "webkit-app/index.html",
+  "build": {
+    "nwVersion": "0.30.2"
+  },
   "scripts": {
-    "build": "rm -rf build && nwbuild -p osx64 ."
+    "build": "build --tasks mac-x64 --mirror https://dl.nwjs.io/ ."
   },
   "author": "Willet Vary",
   "license": "ISC",
   "devDependencies": {
     "grunt": "^0.4.4",
-    "grunt-nw-builder": "^2.0.0"
+    "grunt-nw-builder": "^2.0.0",
+    "nwjs-builder-phoenix": "^1.14.6"
   }
 }

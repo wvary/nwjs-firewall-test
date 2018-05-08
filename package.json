@@ -9,8 +9,7 @@
   "author": "Willet Vary",
   "license": "ISC",
   "devDependencies": {
-    "grunt": "^1.0.2",
-    "grunt-nw-builder": "^3.1.0",
-    "hoek": "^5.0.3"
+    "grunt": "^0.4.4",
+    "grunt-nw-builder": "^2.0.0"
   }
 }

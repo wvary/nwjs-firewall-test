@@ -4,7 +4,7 @@
   "description": "",
   "main": "webkit-app/index.html",
   "build": {
-    "nwVersion": "0.30.2"
+    "nwVersion": "0.29.4"
   },
   "scripts": {
     "build": "build --tasks mac-x64 --mirror https://dl.nwjs.io/ ."
